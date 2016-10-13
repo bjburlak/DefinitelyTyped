@@ -347,5 +347,10 @@ declare namespace TL {
          * Can be used to help Timeline load related resources such as CSS themes and language files. Rarely needs to be set.
          */
         script_path?: string;
+        /*
+         * Default: false
+         * If true, will allow links in timeline marker.
+         */
+        allowLinks?: boolean;
     }
 }
